@@ -1,45 +1,51 @@
-# 🛠️ Modul 5: Perintah Dasar Linux 5 – Utility & Informasi Sistem
+# Modul 5 — Utility & Informasi Sistem Linux
 
-> Modul terakhir ini berisi perintah-perintah tambahan yang sangat berguna untuk maintenance, troubleshooting, dan pengelolaan sistem Linux kamu. Jangan remehkan kekuatan tools kecil ini!
-
----
-
-## 🎯 Tujuan Modul
-
-* Mengetahui status sistem secara menyeluruh.
-* Memanfaatkan tool utilitas untuk berbagai kebutuhan operasional.
+Modul ini membahas berbagai utility Linux yang sering digunakan untuk monitoring sistem, troubleshooting, manajemen log, serta pengelolaan resource dan informasi perangkat keras.
 
 ---
 
-## 🔍 Daftar Perintah
+## Tujuan Pembelajaran
 
-| Perintah             | Deskripsi                                                     |
-| -------------------- | ------------------------------------------------------------- |
-| `acpi`               | Menampilkan informasi status baterai                          |
-| `swapoff` / `swapon` | Menonaktifkan atau mengaktifkan swap memory                   |
-| `zip` / `unzip`      | Mengompresi dan mengekstrak file ZIP                          |
-| `w`                  | Menampilkan siapa yang sedang login dan aktivitas mereka      |
-| `whois`              | Menampilkan informasi domain melalui DNS lookup               |
-| `lsmod`              | Menampilkan modul kernel yang sedang digunakan                |
-| `arch`               | Menampilkan arsitektur sistem (32-bit atau 64-bit)            |
-| `comm`               | Membandingkan isi dua file                                    |
-| `expr`               | Melakukan operasi aritmatika di CLI                           |
-| `hwinfo`             | Menampilkan informasi hardware yang sangat detail             |
-| `stat`               | Menampilkan status metadata sebuah file                       |
-| `ip a`               | Menampilkan informasi IP dan interface jaringan               |
-| `journalctl`         | Menampilkan log dari sistem dan layanan                       |
-| `tasksel`            | Memilih dan menginstal grup paket (biasanya di Debian/Ubuntu) |
-| `halt`               | Mematikan sistem (shutdown)                                   |
+Setelah mempelajari modul ini, diharapkan dapat:
+
+- Memantau kondisi dan aktivitas sistem Linux
+- Menggunakan utility tambahan untuk administrasi sistem
+- Membaca log dan informasi hardware
+- Mengelola resource sistem melalui terminal
 
 ---
 
-## ⚡ Tips
+## Daftar Perintah
 
-* Gunakan `journalctl -xe` untuk melihat log error terbaru.
-* Kombinasikan `expr` dengan script sederhana untuk kalkulasi cepat di terminal.
+| Perintah             | Fungsi |
+|----------------------|---------|
+| `acpi`               | Menampilkan informasi baterai |
+| `swapoff` / `swapon` | Menonaktifkan atau mengaktifkan swap memory |
+| `zip` / `unzip`      | Mengompresi dan mengekstrak file ZIP |
+| `w`                  | Menampilkan user aktif dan aktivitasnya |
+| `whois`              | Menampilkan informasi domain |
+| `lsmod`              | Menampilkan modul kernel yang aktif |
+| `arch`               | Menampilkan arsitektur sistem |
+| `comm`               | Membandingkan isi dua file |
+| `expr`               | Melakukan operasi aritmatika di terminal |
+| `hwinfo`             | Menampilkan informasi hardware detail |
+| `stat`               | Menampilkan metadata file |
+| `ip a`               | Menampilkan konfigurasi jaringan |
+| `journalctl`         | Menampilkan log sistem dan service |
+| `tasksel`            | Menginstal grup paket pada Debian/Ubuntu |
+| `halt`               | Mematikan sistem |
 
 ---
 
-## 🔗 Kembali ke Beranda
+## Catatan
 
-👉 [README Utama](../README.md)
+- Gunakan `journalctl -xe` untuk melihat log error terbaru
+- `ip a` merupakan pengganti modern dari `ifconfig`
+- `lsmod` berguna untuk melihat driver atau modul kernel yang digunakan
+- `zip` dan `unzip` umum digunakan untuk distribusi dan backup file
+
+---
+
+## Navigasi
+
+[← Kembali ke README Utama](../README.md)
