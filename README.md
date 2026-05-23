@@ -47,11 +47,4 @@ Materi dibagi ke dalam beberapa modul yang ringkas dan fokus, supaya kamu nggak 
 
 ---
 
-## 🤝 Kontribusi
-
-Punya saran atau mau menambahkan materi?  
-Jangan ragu buat bikin *pull request* atau *issue* ya!
-
----
-
 © 2025 oleh Kaguai10 • Lisensi MIT
