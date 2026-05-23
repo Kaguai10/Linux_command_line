@@ -1,53 +1,59 @@
-# 📦 Modul 3: Perintah Dasar Linux 3 – Sistem & Manajemen Paket
+# Modul 3 — Sistem & Manajemen Paket Linux
 
-> Sistem butuh kontrol, dan kamu akan belajar bagaimana mengelola file, paket, dan informasi penting sistem di modul ini.
-
----
-
-## 📌 Tujuan Modul
-
-* Menggunakan perintah dasar untuk mengelola sistem.
-* Menginstal, memperbarui, dan menghapus paket menggunakan manajer paket.
+Modul ini membahas pengelolaan sistem Linux dan penggunaan package manager untuk instalasi, pembaruan, serta penghapusan paket. Selain itu, modul ini juga mencakup monitoring sistem dan informasi hardware dasar.
 
 ---
 
-## 🛠️ Daftar Perintah
+## Tujuan Pembelajaran
 
-| Perintah      | Deskripsi                                         |
-| ------------- | ------------------------------------------------- |
-| `wget`        | Mengunduh file dari internet melalui terminal     |
-| `apt update`  | Memperbarui daftar paket                          |
-| `apt upgrade` | Meng-upgrade semua paket yang bisa diperbarui     |
-| `apt install` | Menginstal paket baru                             |
-| `apt remove`  | Menghapus paket                                   |
-| `apt purge`   | Menghapus paket beserta konfigurasinya            |
-| `cal`         | Menampilkan kalender                              |
-| `date`        | Menampilkan tanggal dan waktu saat ini            |
-| `fdisk -l`    | Menampilkan partisi disk                          |
-| `cfdisk`      | Utility untuk mengelola partisi disk              |
-| `echo`        | Menampilkan teks ke layar                         |
-| `eject`       | Mengeluarkan media seperti CD/DVD                 |
-| `file`        | Menentukan tipe dari suatu file                   |
-| `iptables -L` | Menampilkan aturan firewall aktif                 |
-| `ln`          | Membuat link (shortcut) ke file/direktori         |
-| `netstat`     | Melihat statistik jaringan dan koneksi            |
-| `tree`        | Menampilkan struktur direktori dalam bentuk pohon |
-| `uptime`      | Menampilkan waktu aktif sistem                    |
-| `lscpu`       | Menampilkan informasi tentang CPU                 |
-| `traceroute`  | Melacak jalur paket ke alamat tujuan              |
-| `lshw`        | Menampilkan info perangkat keras secara rinci     |
-| `whatis`      | Menjelaskan fungsi singkat dari suatu perintah    |
-| `sort`        | Mengurutkan isi file/text                         |
+Setelah mempelajari modul ini, diharapkan dapat:
+
+- Mengelola paket pada sistem Linux
+- Memahami penggunaan tools monitoring sistem
+- Melihat informasi perangkat keras dan jaringan
+- Menggunakan utilitas terminal untuk administrasi sistem
 
 ---
 
-## 💬 Tips
+## Daftar Perintah
 
-* Gunakan `apt` dengan hak akses root (`sudo`) untuk manajemen sistem.
-* Gunakan `man apt` untuk eksplorasi lebih jauh tentang manajemen paket.
+| Perintah      | Fungsi |
+|---------------|---------|
+| `wget`        | Mengunduh file melalui terminal |
+| `apt update`  | Memperbarui daftar repository paket |
+| `apt upgrade` | Memperbarui paket yang terpasang |
+| `apt install` | Menginstal paket baru |
+| `apt remove`  | Menghapus paket |
+| `apt purge`   | Menghapus paket beserta konfigurasi |
+| `cal`         | Menampilkan kalender |
+| `date`        | Menampilkan tanggal dan waktu sistem |
+| `fdisk -l`    | Menampilkan partisi disk |
+| `cfdisk`      | Mengelola partisi disk melalui terminal |
+| `echo`        | Menampilkan teks ke terminal |
+| `eject`       | Mengeluarkan media penyimpanan |
+| `file`        | Menampilkan tipe file |
+| `iptables -L` | Menampilkan aturan firewall |
+| `ln`          | Membuat hardlink atau symbolic link |
+| `netstat`     | Menampilkan koneksi dan statistik jaringan |
+| `tree`        | Menampilkan struktur direktori berbentuk pohon |
+| `uptime`      | Menampilkan lama sistem aktif |
+| `lscpu`       | Menampilkan informasi CPU |
+| `traceroute`  | Melacak jalur koneksi jaringan |
+| `lshw`        | Menampilkan informasi hardware |
+| `whatis`      | Menampilkan deskripsi singkat perintah |
+| `sort`        | Mengurutkan isi file atau teks |
 
 ---
 
-## 🔗 Kembali ke Beranda
+## Catatan
 
-👉 [README Utama](../README.md)
+- Gunakan `sudo` untuk menjalankan perintah administrasi sistem
+- `apt` digunakan pada distribusi berbasis Debian seperti Ubuntu dan Kali Linux
+- `iptables` digunakan untuk konfigurasi firewall pada Linux
+- `netstat` pada beberapa sistem modern dapat digantikan oleh `ss`
+
+---
+
+## Navigasi
+
+[← Kembali ke README Utama](../README.md)
