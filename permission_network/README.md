@@ -1,49 +1,54 @@
-# 🔐 Modul 2: Perintah Dasar Linux 2 – Permission & Network
+# Modul 2 — Permission & Networking Linux
 
-> Kendalikan siapa yang bisa akses sistemmu dan pelajari dasar jaringan. Modul ini penting untuk keamanan dan pengelolaan sistem.
-
----
-
-## 📌 Tujuan Modul
-
-* Mengelola hak akses file dan direktori.
-* Mengenal tools jaringan dasar untuk monitoring dan troubleshooting.
+Modul ini membahas pengelolaan hak akses file serta penggunaan perintah dasar networking di Linux. Materi ini penting untuk administrasi sistem, monitoring, dan keamanan sistem Linux.
 
 ---
 
-## 🔧 Daftar Perintah
+## Tujuan Pembelajaran
 
-| Perintah         | Deskripsi                                                    |
-| ---------------- | ------------------------------------------------------------ |
-| `chmod`          | Mengubah permission file/direktori                           |
-| `chown`          | Mengubah kepemilikan user/group file atau direktori          |
-| `cat`            | Membaca isi file                                             |
-| `lspci`          | Melihat perangkat PCI yang terhubung                         |
-| `uname -a`       | Menampilkan informasi lengkap tentang sistem                 |
-| `lsb_release -a` | Menampilkan informasi distribusi Linux                       |
-| `grep`           | Mencari pola teks di file atau output                        |
-| `nano`           | Mengedit file dalam terminal                                 |
-| `head`           | Menampilkan bagian awal dari file                            |
-| `tail`           | Menampilkan bagian akhir dari file                           |
-| `df`             | Menampilkan penggunaan disk                                  |
-| `du`             | Menampilkan ukuran file/direktori                            |
-| `free`           | Menampilkan penggunaan RAM                                   |
-| `adduser`        | Menambahkan user baru                                        |
-| `top`            | Melihat proses yang sedang berjalan secara real-time         |
-| `ps`             | Menampilkan proses aktif                                     |
-| `ifconfig`       | Menampilkan informasi jaringan                               |
-| `dmesg`          | Menampilkan pesan kernel (berguna untuk debugging perangkat) |
+Setelah mempelajari modul ini, diharapkan dapat:
+
+- Mengelola permission file dan direktori
+- Memahami kepemilikan file pada Linux
+- Menggunakan tools monitoring sistem dan jaringan
+- Melakukan troubleshooting dasar melalui terminal
 
 ---
 
-## 💡 Catatan Penting
+## Daftar Perintah
 
-* Gunakan `chmod +x namafile` untuk membuat file script bisa dijalankan.
-* Kombinasikan `grep` dengan `cat`, misalnya: `cat file.txt | grep password`
-* `ifconfig` kadang tidak tersedia, gunakan `ip a` sebagai pengganti.
+| Perintah         | Fungsi |
+|------------------|---------|
+| `chmod`          | Mengubah permission file atau direktori |
+| `chown`          | Mengubah kepemilikan file atau direktori |
+| `cat`            | Menampilkan isi file |
+| `lspci`          | Menampilkan perangkat PCI yang terhubung |
+| `uname -a`       | Menampilkan informasi kernel dan sistem |
+| `lsb_release -a` | Menampilkan informasi distribusi Linux |
+| `grep`           | Mencari teks atau pola tertentu |
+| `nano`           | Mengedit file melalui terminal |
+| `head`           | Menampilkan bagian awal file |
+| `tail`           | Menampilkan bagian akhir file |
+| `df`             | Menampilkan penggunaan disk |
+| `du`             | Menampilkan ukuran file atau direktori |
+| `free`           | Menampilkan penggunaan RAM |
+| `adduser`        | Membuat user baru |
+| `top`            | Monitoring proses secara real-time |
+| `ps`             | Menampilkan daftar proses aktif |
+| `ifconfig`       | Menampilkan konfigurasi jaringan |
+| `dmesg`          | Menampilkan log kernel dan perangkat |
 
 ---
 
-## 🔗 Kembali ke Beranda
+## Catatan
 
-👉 [README Utama](../README.md)
+- Gunakan `chmod +x <file>` untuk memberikan izin eksekusi
+- `grep` sering digunakan bersama pipe (`|`) untuk filtering output
+- Pada distribusi Linux modern, `ifconfig` mulai digantikan oleh `ip a`
+- Gunakan `top` atau `ps aux` untuk monitoring proses sistem
+
+---
+
+## Navigasi
+
+[← Kembali ke README Utama](../README.md)
